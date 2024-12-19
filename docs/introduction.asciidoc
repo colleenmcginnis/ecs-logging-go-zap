@@ -7,7 +7,7 @@ They make it easy to format your logs into ECS-compatible JSON.
 The encoder logs in JSON format, relying on the default
 https://github.com/uber-go/zap/blob/master/zapcore/json_encoder.go[zapcore/json_encoder] when possible.
 It also handles the logging of error fields in
-https://www.elastic.co/guide/en/ecs/current/ecs-error.html[ECS error format].
+{ecs-ref}/ecs-error.html[ECS error format].
 
 By default, the following fields are added:
 
